@@ -6,12 +6,12 @@ It contains materials and Python implementations developed during the Advanced P
 ---
 
 ## Repository Structure
-1. Algorithms.py
+1. Algorithms.py:
 This script includes the implementation and analysis of fundamental algorithms, with a particular focus on sorting and searching techniques.
 Implementation of Insertion Sort and its empirical time complexity analysis (best, average, and worst-case scenarios).
 Implementation of Merge Sort, Binary Search, Selection Sort, Quick Sort and Randomized Quick Sort. 
 
-2. Dll Queues Stacks Trees.py
+2. Dll Queues Stacks Trees.py:
 This script provides object-oriented implementations of several classical data structures with examples and small tests to demonstrate functionality and correctness, including:
 - Doubly Linked Lists (with methods for insertion, deletion, search, and traversal).
 - Queues (enqueue/dequeue operations).
