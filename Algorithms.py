@@ -1,6 +1,6 @@
-# _InsertionSort
+# InsertionSort
 
-#In-place implementation of _InsertionSort_:
+#In-place implementation of InsertionSort:
 def insertion_sort(A):
   for j in range(1, len(A)):
     key = A[j]
@@ -73,7 +73,7 @@ plt.ylabel('T(n)')
 plt.legend()
 plt.show()
 
-# if we zoom to the best case curve we can clearly see that it is a straight line
+#if we zoom to the best case curve we can clearly see that it is a straight line
 plt.figure()
 plt.plot(ct_best, label='Best Scenario', color = 'green')
 plt.title('Computational Complexity of Insertion Sort (Best Scenario Detail)')
@@ -84,7 +84,7 @@ plt.show()
 
 
 
-# _BinarySearch_
+# BinarySearch
 
 ## Recursive Approach
 def recursive_binary_search(A, start, end, k):
@@ -92,7 +92,7 @@ def recursive_binary_search(A, start, end, k):
   if start > end:
     return None
 
-  # approximate the division to a lower integer
+  #approximate the division to a lower integer
   mid = (start + end) // 2
 
   if A[mid] == k:
@@ -106,7 +106,7 @@ def recursive_binary_search(A, start, end, k):
 
 array = [1, 7, 12, 32, 43, 65] # the array should be sorted
 
-# look for number 12
+#look for number 12
 number_to_find = 12
 index = recursive_binary_search(array, 0, len(array)-1, number_to_find)
 if index is not None:
@@ -135,7 +135,7 @@ def iterative_binary_search(A, k):
 
   return None
 
-# look for number 12
+#look for number 12
 number_to_find = 12
 index = iterative_binary_search(array, number_to_find)
 if index is not None:
@@ -302,8 +302,7 @@ print(f'Sorted array: {array}')
 # Fibonacci
 
 # Iterative Approach wit Bottom-Up Dynamic Programming
-#Using dynamic programming it is possible to achieve a time complexity of O(n).
-# Note that this iterative solution is in-place (it exists also a variant in which the restults are stored into a Python list, which is not-in-place and therefore less efficient in terms of space complexity).
+# Using dynamic programming it is possible to achieve a time complexity of O(n).
 
 def iterative_fib_bu(n):
     if n <= 1:
