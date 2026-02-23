@@ -18,7 +18,6 @@ This script provides object-oriented implementations of several classical data s
 - Stacks (push/pop operations).
 - Binary Search Trees (insertion, search, traversal, and minimum value retrieval).
 
-As the course progresses, further content will be added, including:
 - Advanced topics in Python: exceptions, file system access, comprehensions, iterators, generators, enumerate, zip, lambda functions, unpacking.
 - Additional data structures: hash tables and graphs.
 - Algorithms on trees and graphs: balanced search trees, graph traversals, minimum spanning tree, shortest path, network flows and cuts.
