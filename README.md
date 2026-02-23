@@ -1,7 +1,7 @@
 # Advanced-Programming (Algorithms and Data Structures)
 This repository serves as a practical reference for implementing and testing algorithms and data structures in Python.
 
-It contains materials and Python implementations developed for the Advanced Programming course of the MSc in Data Analytics for Business at Cattolica University, covering algorithms, data structures, and advanced programming techniques, and combining both theoretical foundations and practical Python applications.
+It contains materials and Python implementations developed for the Advanced Programming course of the MSc in Data Analytics for Business at Cattolica University, covering algorithms, data structures (DLL, Stacks and Queues, Trees, Hash tables and Graphs), and advanced programming techniques, and combining both theoretical foundations and practical Python applications.
 
 ---
 
@@ -18,6 +18,4 @@ This script provides object-oriented implementations of several classical data s
 - Stacks (push/pop operations).
 - Binary Search Trees (insertion, search, traversal, and minimum value retrieval).
 
-- Advanced topics in Python: exceptions, file system access, comprehensions, iterators, generators, enumerate, zip, lambda functions, unpacking.
-- Additional data structures: hash tables and graphs.
-- Algorithms on trees and graphs: balanced search trees, graph traversals, minimum spanning tree, shortest path, network flows and cuts.
+
