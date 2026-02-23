@@ -1,7 +1,7 @@
 # Advanced-Programming (Algorithms and Data Structures)
 This repository serves as a practical reference for implementing and testing algorithms and data structures in Python.
 
-It contains materials and Python implementations developed during the Advanced Programming course focusing on algorithms, data structures, and advanced programming techniques, combining both theoretical foundations and practical applications in Python.
+It contains materials and Python implementations developed for the Advanced Programming course of the MSc in Data Analytics for Business at Cattolica University, covering algorithms, data structures, and advanced programming techniques, and combining both theoretical foundations and practical Python applications.
 
 ---
 
